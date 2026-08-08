@@ -268,3 +268,13 @@ if (gallerySliders.length) {
     gallerySliders.forEach(slider => slider.goTo(slider.index + 1));
   }, GALLERY_SLIDE_INTERVAL);
 }
+
+// ── DISCLOSURE TRIANGLE: Visi / Misi / Tujuan ──
+document.querySelectorAll('.vm-card').forEach(card => {
+  const btn = card.querySelector('.vm-card-header');
+  btn.addEventListener('click', () => {
+    const isOpen = card.getAttribute('data-open') === 'true';
+    card.setAttribute('data-open', String(!isOpen));
+    btn.setAttribute('aria-expanded', String(!isOpen));
+  });
+});

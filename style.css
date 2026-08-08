@@ -304,7 +304,6 @@ nav {
   align-items: center;
   gap: 10px;
 
-  margin-left: 20px;
 
 }
 
@@ -338,6 +337,36 @@ nav {
   height: 100%;
   object-fit: cover;
   display: block;
+}
+
+/* Caption Ibu Kepsek */
+.photo-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 60px 24px 24px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75)0%, rgba(0, 0, 0, 0.4)50%, rgba(0, 0, 0, 0)100%);
+  color: whitesmoke;
+  z-index: 2;
+}
+
+.caption-text {
+  border-left: 3.5px solid #e8f5e9;
+  padding-left: 12px;
+}
+
+.caption-name {
+  display: block;
+  font-family: 'Fredoka One', cursive;
+  font-size: 14.7px;
+}
+
+.caption-role {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.95;
 }
 
 /* ── GENERIC SLIDER (dipakai oleh hero & galeri) ── */
@@ -665,6 +694,54 @@ section {
   font-size: 1.2rem;
   color: var(--green);
   margin: 0;
+}
+
+.vm-card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 0;
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: left;
+  padding: 0;
+}
+
+.vm-card-header h3 {
+  flex: 1;
+}
+
+.vm-toggle {
+  font-size: 0.8rem;
+  color: var(--green);
+  transition: transform 0.25s ease;
+  flex-shrink: 0;
+}
+
+.vm-card[data-open="true"] .vm-toggle {
+  transform: rotate(90deg);
+}
+
+.vm-card-body {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transition: grid-template-rows 0.3s ease, opacity 0.25s ease, margin-top 0.3s ease;
+  margin-top: 0;
+}
+
+.vm-card-body > * {
+  overflow: hidden;
+  min-height: 0;
+}
+
+.vm-card[data-open="true"] .vm-card-body {
+  grid-template-rows: 1fr;
+  opacity: 1;
+  margin-top: 12px;
 }
 
 .vm-icon {
@@ -1220,28 +1297,34 @@ footer::before {
     font-size: 2rem;
   }
 
+.hero-badge{
+    margin-top: 15px;
+
+    font-size: 0.75rem;
+    padding: 5px 12px;
+}
+  
   .hero-desc {
     font-size: 0.93rem;
   }
 
   .hero-buttons {
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
     gap: 10px;
   }
 
-  .btn-primary,
-  .btn-outline {
-    width: 100%;
+  .btn-daftar,
+  .btn-hubungi {
+    width: auto;
     text-align: center;
     padding: 14px 20px;
+    font-size: 0.85rem;
   }
 
   .hero-img-wrap {
     max-width: 260px;
-  }
-
-  .stat-bubble {
-    display: none;
   }
 
   /* Stats strip */

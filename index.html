@@ -22,7 +22,7 @@
 ════════════════════════════════════════ -->
 <nav>
   <a class="nav-logo" href="#home">
-   <img src="assets/logo_icon/logo.jpg" class="logo">
+   <img src="assets/logo/logo.jpg" class="logo">
     <div>
       <div class="brand">Cahaya Insani</div>
       <div class="sub">Daycare · Toddler · KB · RA Islami</div>
@@ -33,13 +33,11 @@
     <li><a href="#Beranda">Beranda</a></li>
     <li><a href="#tentang">Tentang</a></li>
     <li><a href="#program">Program</a></li>
-    <li><a href="#dakwah">Cahaya Dakwah</a></li>
     <li><a href="#galeri">Galeri</a></li>
     <li><a href="#Testimoni">Testimoni</a></li>
     <li><a href="#kontak">Kontak</a></li>
   </ul>
 
-  <button class="hamburger" onclick="toggleMenu()" aria-label="buka menu">☰</button>
 </nav>
 
 <!-- Mobile Menu -->
@@ -61,12 +59,14 @@
   <div class="hero-left">
     <div class="hero-badge">Membentuk Generasi Qurani Berakhlak Mulia</div>
     <h1>Pendidikan Islami<br><span>Sejak Dini</span></h1>
+    
     <p class="hero-desc">
-      KB/RA Cahaya Insani hadir untuk menyinari masa depan putra-putri Anda dengan layanan
+      Cahaya Insani Pre-School hadir untuk menyinari masa depan putra-putri Anda dengan layanan
       Daycare, Kelompok Bermain, dan Raudhatul Athfal yang menyenangkan, berlandaskan nilai-nilai
       Islam dan kasih sayang.
     </p>
-    <div class="hero-announce">Penerimaan Peserta Didik Baru Tahun Ajaran 2025/2026 Dibuka!</div>
+    
+    <div class="hero-announce"> Berikan buah hati anda yang terbaik, Penerimaan Peserta Didik Baru Tahun Ajaran Dibuka!</div>
     <div class="hero-buttons">
       <a class="btn-primary btn-daftar" href="#daftar">Daftar Sekarang!</a>
       <a class="btn-hubungi" href="https://wa.me/6282132019290" target="_blank"> <i class="fa-brands fa-whatsapp"></i> Hubungi Kami</a>
@@ -77,6 +77,12 @@
     <div class="hero-img-wrap js-slider" data-interval="3500">
       <div class="slider-track">
         <div class="slider-slide"><img class="hero-img" src="assets/Picture/ChatGPT Image Jul 25, 2026, 07_33_43 AM.png" alt="Foto 1"></div>
+      </div>
+      <div class="photo-caption">
+        <div class="caption-text">
+          <span class="caption-name">Ibu Ninik Hariyani, S.Pd</span>
+          <span class="caption-role">Kepala Sekolah Cahaya Insani Pre-School</span>
+        </div>
       </div>
     </div>
 
@@ -109,40 +115,48 @@
     berfokus pada pembentukan karakter, akhlak, dan kemandirian anak.
   </p>
 
-  <div class="vm-cards-grid">
-    <div class="vm-card">
-      <div class="vm-card-header">
+<div class="vm-cards-grid">
+    <div class="vm-card" data-open="true">
+      <button class="vm-card-header" type="button" aria-expanded="true">
         <div class="vm-icon ic-visi">🎯</div>
         <h3>Visi</h3>
+        <span class="vm-toggle">▶</span>
+      </button>
+      <div class="vm-card-body">
+        <p>"Membentuk generasi yang berakhlakul karimah, bertaqwa kepada Allah SWT., dan mengikuti ajaran Rasulullah — membentuk pribadi yang bertanggung jawab, mandiri, kreatif, dan inovatif."</p>
       </div>
-      <p>"Membentuk generasi yang berakhlakul karimah, bertaqwa kepada Allah SWT., dan mengikuti ajaran Rasulullah — membentuk pribadi yang bertanggung jawab, mandiri, kreatif, dan inovatif."
-</p>
     </div>
 
-    <div class="vm-card">
-      <div class="vm-card-header">
+    <div class="vm-card" data-open="true">
+      <button class="vm-card-header" type="button" aria-expanded="true">
         <div class="vm-icon ic-misi">📌</div>
         <h3>Misi</h3>
+        <span class="vm-toggle">▶</span>
+      </button>
+      <div class="vm-card-body">
+        <ul>
+          <li>Membangun karakter berakhlaq mulia, menanamkan pembiasaan perilaku hidup bersih, sehat, mandiri dan berakhlaq mulia.</li>
+          <li>Membangun pembiasaan kepribadian yang bertanggung jawab dan berprestasi.</li>
+          <li>Memfasilitasi kegiatan belajar yang aktif menyenangkan sesuai dengan tahapan perkembangan, minat dan potensi anak.</li>
+          <li>Membangun ekosistem pendidikan.</li>
+        </ul>
       </div>
-      <ul>
-        <li>Membangun karakter berakhlaq mulia, menanamkan pembiasaan perilaku hidup bersih, sehat, mandiri dan berakhlaq mulia.</li>
-        <li>Membangun pembiasaan kepribadian yang bertanggung jawab dan berprestasi.</li>
-        <li>Memfasilitasi kegiatan belajar yang aktif menyenangkan sesuai dengan tahapan perkembangan, minat dan potensi anak.</li>
-        <li>Membangun ekosistem pendidikan.</li>
-      </ul>
     </div>
 
-    <div class="vm-card">
-      <div class="vm-card-header">
+    <div class="vm-card" data-open="true">
+      <button class="vm-card-header" type="button" aria-expanded="true">
         <div class="vm-icon ic-tujuan">🏆</div>
         <h3>Tujuan</h3>
+        <span class="vm-toggle">▶</span>
+      </button>
+      <div class="vm-card-body">
+        <ul>
+          <li>Mewujudkan anak yang sehat, jujur, senang dan mandiri.</li>
+          <li>Mewujudkan anak yang peduli terhadap diri sendiri, orang lain dan lingkungan sekitarnya.</li>
+          <li>Menjadikan anak beragama sejak dini.</li>
+          <li>Menciptakan iklim belajar yang kondusif bagi penyelenggara pendidikan, perawatan, pengasuhan dan perlindungan anak.</li>
+        </ul>
       </div>
-      <ul>
-        <li>Mewujudkan anak yang sehat, jujur, senang dan mandiri.</li>
-        <li>Mewujudkan anak yang peduli terhadap diri sendiri, orang lain dan lingkungan sekitarnya.</li>
-        <li>Menjadikan anak beragama sejak dini.</li>
-        <li>Menciptakan iklim belajar yang kondusif bagi penyelenggara pendidikan, perawatan, pengasuhan dan perlindungan anak.</li>
-      </ul>
     </div>
   </div>
 </section>
@@ -155,7 +169,7 @@
   <div class="section-label">📚 Program Kami</div>
   <h2 class="section-title">Program <span>Terbaik</span> untuk<br>Buah Hati Anda</h2>
   <p class="section-sub">
-    Kami menyediakan tiga program utama yang dirancang sesuai tahap perkembangan anak,
+    Kami menyediakan empat program utama yang dirancang sesuai tahap perkembangan anak,
     dengan pendekatan Islami yang hangat dan menyenangkan.
   </p>
 
@@ -210,35 +224,35 @@
         <div class="slider-slide"><img src="assets/Picture/IMG-20251022-WA0019.jpg" alt="Melukis & Mewarnai 1"></div>
         <div class="slider-slide"><img src="assets/Picture/WhatsApp Image 2026-07-21 at 2.37.49 PM.jpeg" alt="Melukis & Mewarnai 2"></div>
       </div>
-      <div class="gal-label">Event Menyenangkan</div>
+      <div class="gal-label">Event Menyenangkan 🎉</div>
     </div>
     <div class="gal-item js-slider">
       <div class="slider-track">
         <div class="slider-slide"><img src="assets/Picture/WhatsApp Image 2026-07-21 at 2.11.18 PM.jpeg" alt="Belajar Al-Quran 1"></div>
         <div class="slider-slide"><img src="assets/Picture/IMG_20260730_075207_392.jpg" alt="Belajar Al-Quran 2"></div>
       </div>
-      <div class="gal-label">Belajar Al-Quran</div>
+      <div class="gal-label">Belajar Al-Quran 📖</div>
     </div>
     <div class="gal-item js-slider">
       <div class="slider-track">
         <div class="slider-slide"><img src="assets/Picture/WhatsApp Image 2026-07-24 at 12.34.11 PM.jpeg" alt="Musik & Bernyanyi 1"></div>
         <div class="slider-slide"><img src="assets/Picture/WhatsApp Image 2026-07-24 at 12.34.05 PM.jpeg" alt="Musik & Bernyanyi 2"></div>
       </div>
-      <div class="gal-label">Melukis &amp; Mewarnai</div>
+      <div class="gal-label">Melukis &amp; Mewarnai 🎨</div>
     </div>
     <div class="gal-item js-slider">
       <div class="slider-track">
         <div class="slider-slide"><img src="assets/Picture/WhatsApp Image 2026-07-21 at 2.37.47 PM.jpeg" alt="Olahraga Seru 1"></div>
         <div class="slider-slide"><img src="assets/Picture/IMG_20260522_095808_646.jpg" alt="Olahraga Seru 2"></div>
       </div>
-      <div class="gal-label">Olahraga Seru</div>
+      <div class="gal-label">Olahraga Seru 🏃🏼‍♂️‍➡️</div>
     </div>
     <div class="gal-item js-slider">
       <div class="slider-track">
         <div class="slider-slide"><img src="assets/Picture/WhatsApp Image 2026-07-21 at 2.37.48 PM.jpeg"></div>
-        <div class="slider-slide"><img src="assets/logo_icon/logo.jpg" alt="Belajar Alam 2"></div>
+        <div class="slider-slide"><img src="assets/logo/logo.jpg" alt="Belajar Alam 2"></div>
       </div>
-      <div class="gal-label">Belajar Alam</div>
+      <div class="gal-label">Belajar Alam 🍃</div>
     </div>
   </div>
 </section>
@@ -314,11 +328,11 @@
     <div class="footer-col" id="kontak">
       <h4>Kontak</h4>
       <ul class="footer-kontak">
-        <li><span class="ico">📍</span> Perum Surya Asri 2 blok D5 no23-24 Jumputrejo, Sukodono, Sidoarjo</li>
-        <li><span class="ico">📱</span> +62 821-3201-9290</li>
-        <li><span class="ico">📧</span> info@cahayainsani.sch.id</li>
-        <li><span class="ico">🕐</span> Senin – Jumat, 07.00–11.00 WIB</li>
-        <li><span class="ico">📘</span> @cahayainsani.official</li>
+        <li><i class="ico fa-solid fa-location-dot"></i> Perum Surya Asri 2 blok D5 no23-24 Jumputrejo, Sukodono, Sidoarjo</li>
+        <li><i class="ico fa-solid fa-envelope"></i> Cahaya_Insani@gmail.com</li>
+        <li><i class="ico fa-brands fa-tiktok"></i> @Cahaya_Insani</li>
+        <li><i class="ico fa-brands fa-instagram"></i> Cahaya_Insani_PreSchool</li>
+        <li><i class="ico fa-brands fa-whatsapp"></i> +62 821-3201-9290</li>
       </ul>
     </div>
     <div class="footer-map">
@@ -333,7 +347,7 @@
     </div>
   </div>
   <div class="footer-bottom">
-    <p>© 2025 KB/RA Cahaya Insani. Semua hak dilindungi.</p>
+    <p>©Cahaya Insani Pre-School. Semua hak dilindungi.</p>
   </div>
 </footer>
 
