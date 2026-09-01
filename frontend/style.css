@@ -594,67 +594,7 @@ section {
   border-radius: 50px;
 }
 
-/* ── CAHAYA DAKWAH ── */
-.dakwah {
-  background: var(--cream);
-}
 
-.dakwah-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 20px;
-}
-
-.dakwah-card {
-  background: var(--white);
-  border-radius: var(--radius);
-  padding: 26px 24px;
-  border: 2px solid transparent;
-  transition: all 0.3s;
-}
-
-.dakwah-card:hover {
-  border-color: var(--gold);
-  box-shadow: var(--shadow);
-  transform: translateY(-4px);
-}
-
-.dakwah-card h3 {
-  font-family: 'Fredoka One', cursive;
-  font-size: 1.2rem;
-  color: var(--green);
-  margin-bottom: 8px;
-}
-
-.dakwah-card p {
-  font-size: 0.88rem;
-  color: #5a6b5d;
-  line-height: 1.65;
-  margin-bottom: 18px;
-}
-
-.dakwah-photos {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-}
-
-.dakwah-photo-slot {
-  aspect-ratio: 1 / 1;
-  border-radius: 14px;
-  background: var(--green-pale);
-  border: 2px dashed var(--green-light);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.8rem;
-}
-
-@media (max-width: 480px) {
-  .dakwah-card {
-    padding: 22px 18px;
-  }
-}
 
 /* ===== TENTANG KAMI ===== */
 
@@ -964,7 +904,36 @@ section {
   transform: translateY(-5px);
 }
 
-/* (kontak section moved into footer) */
+/* ── Daftar & WA ── */
+.cta-whatsapp {
+  margin-top: 28px
+}
+
+.cta-whatsapp-text {
+  color: #fff;
+  font-size: 0.92rem;
+  opacity: 0.9;
+  margin-bottom: 14px;
+}
+
+.btn-whatsapp {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #25D366;
+  color: #fff;
+  font-weight: 800;
+  padding: 14px 35px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.25s;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-whatsapp i {
+  font-size: 1.15rem;
+}
 
 /* ── FOOTER ── */
 footer {
