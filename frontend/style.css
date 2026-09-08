@@ -530,8 +530,8 @@ section {
   font-size: 0.8rem;
   font-weight: 800;
   color: var(--green);
-  opacity: 0;
-  transform: translateX(-4px);
+  opacity: 1;
+  transform: translateX(0);
   transition: all 0.25s;
 }
 
@@ -1006,6 +1006,18 @@ footer {
   margin-top: 1px;
 }
 
+.footer-kontak li a,
+.footer-kontak li a:visited {
+  color: #228027;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-kontak li a:hover {
+  color: #2e7d32;
+  text-decoration: underline;
+}
+
 .footer-map {
   border-radius: 14px;
   overflow: hidden;
@@ -1024,7 +1036,7 @@ footer {
 
 .footer-bottom p {
   font-size: 0.8rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: #212b21;
 }
 
 /* ── DEKORASI TEMATIK (lingkaran & kotak) ── */

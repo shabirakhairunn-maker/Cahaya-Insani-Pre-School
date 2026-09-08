@@ -55,11 +55,11 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
 const PROGRAM_DATA = {
   daycare: {
     title: 'Daycare',
-    emoji: '🍼',
-    age: '1 – 6 Tahun',
+    emoji: '🌻',
+    age: '3+ Bulan',
     desc: 'Penitipan anak harian dengan pengasuhan penuh kasih sayang, stimulasi tumbuh kembang, dan suasana aman layaknya rumah sendiri.',
     requirements: [
-      'Anak berusia 1–6 tahun dan dalam kondisi sehat jasmani & rohani.',
+      'Anak berusia 3+ Bulan dan dalam kondisi sehat jasmani & rohani.',
       'Mengisi formulir pendaftaran Daycare secara lengkap.',
       'Melampirkan fotokopi Akta Kelahiran dan Kartu Keluarga.',
       'Melampirkan fotokopi KTP orang tua/wali.',
@@ -87,7 +87,7 @@ const PROGRAM_DATA = {
   },
   kb: {
     title: 'KB (Kelompok Bermain)',
-    emoji: '🌱',
+    emoji: '🎨',
     age: '3 – 4 Tahun',
     desc: 'Pendidikan anak usia dini yang fokus pada perkembangan sosial-emosional dan kognitif melalui bermain dan aktivitas interaktif.',
     requirements: [
