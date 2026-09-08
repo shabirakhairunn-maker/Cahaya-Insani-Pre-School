@@ -1006,9 +1006,8 @@ footer {
   margin-top: 1px;
 }
 
-.footer-kontak li a,
-.footer-kontak li a:visited {
-  color: #228027;
+.footer-kontak li a {
+  color: #228027 !important;
   text-decoration: none;
   transition: color 0.2s;
 }
