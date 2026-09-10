@@ -56,10 +56,10 @@ const PROGRAM_DATA = {
   daycare: {
     title: 'Daycare',
     emoji: '🌻',
-    age: '3+ Bulan',
+    age: '1 - 6 Tahun',
     desc: 'Penitipan anak harian dengan pengasuhan penuh kasih sayang, stimulasi tumbuh kembang, dan suasana aman layaknya rumah sendiri.',
     requirements: [
-      'Anak berusia 3+ Bulan dan dalam kondisi sehat jasmani & rohani.',
+      'Anak berusia 1 - 6 Tahun dan dalam kondisi sehat jasmani & rohani.',
       'Mengisi formulir pendaftaran Daycare secara lengkap.',
       'Melampirkan fotokopi Akta Kelahiran dan Kartu Keluarga.',
       'Melampirkan fotokopi KTP orang tua/wali.',
